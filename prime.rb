@@ -17,7 +17,7 @@ def prime? (n)
     return false
   elsif primeArray.include?(0) == true
     return false
-  else
+  elsif primeArray.include?(0) == false
     return true
   end
 end
