@@ -1,15 +1,11 @@
 def prime? (n)
-  array = []
-  range = (2..n-1)
 
-  range.each do |i|
-    array.push(i)
-  end
+  range = (2..n-1).to_a
 
 
   primeArray = []
 
-  array.each do |i|
+  range.each do |i|
     primeArray.push(n % i)
     end
 
