@@ -3,7 +3,7 @@ def prime? (n)
   range = (2..n-1)
 
   range.each do |i|
-    array.push()
+    array.push(i)
   end
 
 
