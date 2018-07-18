@@ -1,6 +1,7 @@
 def prime? (n)
   array = []
-  range = (2..n-1)
+  r = n-1
+  range = (2..r)
 
   range.each do |i|
     array.push()
